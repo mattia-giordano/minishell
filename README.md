@@ -28,7 +28,7 @@ In the project directory type `make` and `./minishell`, now you're in!
 Only autocompletion is missing, it would have been a hell to implement it without `readline`
 
 ## TOFIX
-A late bug occured when adding priorities with `&&`and `||`, all spaces are reduced to one, also the one inside `"` or `'`, so `"  a  b  c"` will traduce in `" a b c"`
-***
+A late bug occured when adding priorities with `&&`and `||`, all spaces are reduced to one, also the one inside `"` or `'`, so `"__a__b__c"` will traduce in `"_a_b_c"` where `_` equals to space
+*** 
   
 This project was developed by me and @raccoman
